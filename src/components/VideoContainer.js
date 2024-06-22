@@ -17,7 +17,7 @@ const VideoContainer = () => {
     }
 
   return (
-    <div className='grid grid-cols-4 mt-32 -z-10'>
+    <div className='grid grid-cols-4 mt-32 -z-10 cursor-pointer'>
        {videos?.length>0  && videos.map((video)=><Link to={'/watch?v=' + video.id} key={video.id}><VideoCard info={video}/></Link> ) }
     </div>
   )

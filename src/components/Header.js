@@ -69,7 +69,7 @@ const Header = () => {
       <div className="h-6 w-6 col-span-1">
         <img
           src="https://cdn-icons-png.flaticon.com/512/1144/1144760.png"
-          alt="YoutubeIcon"
+          alt="userIcon"
         />
       </div>
     </div>

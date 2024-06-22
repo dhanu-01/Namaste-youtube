@@ -7,7 +7,7 @@ const VideoCard = ({info}) => {
   
 
   return (
-    <div className='p-2 m-2 w-64'>
+    <div className='p-2 m-2 w-64 cursor-pointer'>
         <img src={thumbnails.medium.url} alt="videoImg" className='rounded-lg'/>
             <p className='font-bold text-lg truncate text-ellipsis overflow-hidden'>{title}</p>
             <p className='truncate text-sm'>{channelTitle}</p>
